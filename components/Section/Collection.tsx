@@ -4,8 +4,6 @@ import RightFlower from '../../public/Icons/RightFlower';
 import LeftFlower from '../../public/Icons/LeftFlower';
 import BodyFrame from '../Frame/BodyFrame';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
-import CollectionImage from '../../public/Images/image.jpg';
-import Image, { StaticImageData } from 'next/image';
 
 const Collection = () => {
     return (

@@ -8,6 +8,11 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
       },
+      colors: {
+        primary: {
+          100: '#1E2832',
+        }
+      }
       // animation: {
       //   'bounce': 'bounce 3s ease infinite',
       // },
