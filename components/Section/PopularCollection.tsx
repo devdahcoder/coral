@@ -58,21 +58,6 @@ const PopularCollection = () => {
                             </div>
                         ))
                     }
-                    {/* <div className="group border col-span-2 row-span-2 ">
-                        
-                    </div>
-                    <div className="border">
-                        hello world
-                    </div>
-                    <div className="border">
-                        hello world
-                    </div>
-                    <div className="border">
-                        hello world
-                    </div>
-                    <div className="border">
-                        hello world
-                    </div> */}
                 </div>
             </BodyFrame>
         </div>

@@ -2,10 +2,11 @@ import React from 'react';
 import BodyFrame from './Frame/BodyFrame';
 import IconContainer from './IconContainer';
 import { subHeaderLinks } from '../constants/subHeaderLinks'
-import { IoSearchOutline } from 'react-icons/io5';
 import Logo from '../public/Icons/Logo';
 import { IoPersonOutline } from 'react-icons/io5';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
+import Search from './Search';
+
 
 type Props = {}
 
@@ -28,8 +29,9 @@ const Header = (props: Props) => {
         <header>
             <BodyFrame>
                 <div className="flex py-4 border-b flex-row items-center justify-between">
-                    <div className="">
-                        <IoSearchOutline />
+                    
+                    <div>
+                        <Search />
                     </div>
 
                     <div className="">
