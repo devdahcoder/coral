@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageContainer from './ImageContainer';
+import { MdProductionQuantityLimits } from 'react-icons/md';
 
 type Props = {
     imageLink: string;
@@ -20,7 +21,7 @@ const PopularCollectionItem = (props: Props) => {
                     {props?.title}
                 </div>
                 <div>
-                    {props?.amount} Products
+                    {props?.amount} Products <span className="ml-1"><MdProductionQuantityLimits /></span>
                 </div>
             </div>
         </div>
