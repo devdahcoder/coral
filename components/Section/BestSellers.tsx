@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { TabPanel } from '../Tab';
-import ProductListing from '../ProductListing';
+import BestSellerList from '../BestSellerList';
 import ProductFrameContainer from '../Frame/ProductFrameContainer';
 import { newProductHeaderLink } from '../../constants/newProductHeader';
+// import { allNewProduct, tShirt, hoodie, jacket } from '../../constants/bestSeller';
 import { allNewProduct, tShirt, hoodie, jacket } from '../../constants/newProduct';
 
-const NewProducts = () => {
+
+
+const BestProduct = () => {
 
     const [value, setValue] = useState<number>(0);
 
@@ -14,21 +17,21 @@ const NewProducts = () => {
     };
     
     return (
-        <ProductFrameContainer handleChange={handleChange} value={value} headerText={'New Products'} headerLinks={newProductHeaderLink}>
+        <ProductFrameContainer handleChange={handleChange} value={value} headerText={'Best Sellers'} headerLinks={newProductHeaderLink}>
             <TabPanel value={value} index={0}>
-                <ProductListing products={allNewProduct} />
+                <BestSellerList products={allNewProduct} />
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <ProductListing products={tShirt} />
+                <BestSellerList products={tShirt} />
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <ProductListing products={hoodie} />
+                <BestSellerList products={hoodie} />
             </TabPanel>
             <TabPanel value={value} index={3}>
-                <ProductListing products={jacket} />
+                <BestSellerList products={jacket} />
             </TabPanel>
         </ProductFrameContainer>
     )
 }
 
-export default NewProducts
+export default BestProduct;

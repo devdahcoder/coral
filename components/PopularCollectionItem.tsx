@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageContainer from './ImageContainer';
 import { MdProductionQuantityLimits } from 'react-icons/md';
+import { motion } from "framer-motion";
 
 type Props = {
     imageLink: string;
@@ -20,7 +21,8 @@ const PopularCollectionItem = (props: Props) => {
                 <div className="">
                     {props?.title}
                 </div>
-                <div>
+                
+                <div className="flex flex-row items-center">
                     {props?.amount} Products <span className="ml-1"><MdProductionQuantityLimits /></span>
                 </div>
             </div>

@@ -12,6 +12,10 @@ module.exports = {
         primary: {
           100: '#1E2832',
         }
+      },
+      backgroundImage: {
+        'zara-image': "url('/Images/andrey.png')",
+        'zara': "url('/Images/1024px-Zara_Logo 1.png')"
       }
       // animation: {
       //   'bounce': 'bounce 3s ease infinite',

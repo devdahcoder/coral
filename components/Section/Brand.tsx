@@ -37,7 +37,7 @@ const Brand = (props: Props) => {
     return (
         <div>
             <BodyFrame>
-                <div className="flex flex-row items-center justify-between py-14">
+                <div className="flex flex-row items-center justify-between py-16">
                     {
                         brandImages.map((brand: Record<string, any>, index: number) => (
                             <div key={index}>

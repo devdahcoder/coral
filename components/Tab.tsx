@@ -7,8 +7,9 @@ export function TabPanel(props: {
     children?: React.ReactNode;
     index: number;
     value: number;
+    classStyle?: string;
 }) {
-    const { children, value, index, ...other } = props;
+    const { children, value, classStyle, index, ...other } = props;
 
     return (
         <div
