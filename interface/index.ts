@@ -1,4 +1,3 @@
-import { popularCollection } from './../constants/popularCollection';
 export interface SubHeaderLinks {
     id: number;
     text: string;
@@ -26,4 +25,9 @@ export interface PopularCollection {
     title: string;
     amount: number;
     className: string;
+}
+
+export interface InstagramPost {
+    id: number;
+    imageLink: string;
 }

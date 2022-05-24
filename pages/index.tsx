@@ -8,6 +8,7 @@ import NewProducts from '../components/Section/NewProducts';
 import Banner from '../components/Section/Banner';
 import { newProductHeaderLink } from '../constants/newProductHeader';
 import BestProduct from '../components/Section/BestSellers';
+import InstagramPost from '../components/Section/InstagramPost';
 // import AllProductItem from '../AllProductItem';
 
 const Home: NextPage = () => {
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
             <NewProducts  />
             <Banner />
             <BestProduct />
+            <InstagramPost />
         </MainPage>
     )
 }
