@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header';
+import Header from './Header';
 import RightFlower from '../../public/Icons/RightFlower';
 import LeftFlower from '../../public/Icons/LeftFlower';
 import BodyFrame from '../Frame/BodyFrame';

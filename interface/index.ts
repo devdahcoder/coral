@@ -31,3 +31,9 @@ export interface InstagramPost {
     id: number;
     imageLink: string;
 }
+
+export interface FooterNav {
+    id: number;
+    link: string;
+    text: string;
+}

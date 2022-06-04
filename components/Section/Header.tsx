@@ -1,11 +1,11 @@
 import React from 'react';
-import BodyFrame from './Frame/BodyFrame';
-import IconContainer from './IconContainer';
-import { subHeaderLinks } from '../constants/subHeaderLinks'
-import Logo from '../public/Icons/Logo';
+import BodyFrame from '../Frame/BodyFrame';
+import IconContainer from '../IconContainer';
+import { subHeaderLinks } from '../../constants/subHeaderLinks'
+import Logo from '../../public/Icons/Logo';
 import { IoPersonOutline } from 'react-icons/io5';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
-import Search from './Search';
+import Search from '../Search';
 
 
 type Props = {}

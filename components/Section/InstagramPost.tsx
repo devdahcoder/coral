@@ -2,7 +2,7 @@ import React from 'react';
 import BodyFrame from '../Frame/BodyFrame';
 import { TiLocationArrowOutline } from 'react-icons/ti';
 import { instagramPost } from '../../constants/instagramPost';
-import InstagramPostItem from '../instagramPostItem';
+import InstagramPostItem from '../InstagramPostItem';
 
 type Props = {}
 
