@@ -10,7 +10,7 @@ const InstagramPost = (props: Props) => {
     return (
         <div className="bg-[#F1F1F1]">
             <BodyFrame>
-                <div className="flex flex-col text-center py-12 space-y-12">
+                <div className="flex flex-col text-center py-16 space-y-12">
                     
                     <div className="text-3xl font-semibold capitalize tracking-widest">
                         <p>Follow products and discounts on Instagram</p>
